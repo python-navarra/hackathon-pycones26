@@ -2,7 +2,7 @@
 
 PyConES 2026 has finally begun! Everyone is talking, meeting new people, and sharing their love for Python. You can almost smell Python in the air.
 
-The organizers have a brilliant idea: they want to know **how many times the word `Python` is mentioned** during the conference.
+The organizers have a brilliant idea: they want to know **how many times `Python` is mentioned** during the conference.
 
 So they start counting:
 - One time. 
@@ -20,7 +20,7 @@ The computer is ready. The editor is open. It's time to write some code.
 
 ## Problem Statement
 
-Given a string, count how many times the word `Python` appears in it.
+Given a string, count how many times `Python` appears in it.
 
 The word must be counted only when it appears exactly as `Python`, with the same capitalization.
 
