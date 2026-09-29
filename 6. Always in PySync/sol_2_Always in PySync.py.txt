@@ -1,6 +1,0 @@
-a, b = list(map(int, input().split()))
-
-gcd = min(a, b)
-while gcd % a != 0 or gcd % b != 0:
-    gcd += 1
-print(gcd)
