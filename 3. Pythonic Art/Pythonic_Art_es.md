@@ -16,8 +16,8 @@ Dada una figura geométrica y sus medidas, calcula su **perímetro**.
 
 Las figuras posibles son:
 
-- `triangulo a b c` — triángulo con lados **a**, **b** y **c**
-- `cuadrado l` — cuadrado con lado **l**
+- `triangle a b c` — triángulo con lados **a**, **b** y **c**
+- `square l` — cuadrado con lado **l**
 
 ## Formato de entrada
 
@@ -27,9 +27,12 @@ Una única línea con el nombre de la figura seguido de sus medidas:
 figura medida1 [medida2] [medida3]
 ```
 
-## Constraints
+Si la figura es `square`, se proporciona una sola medida.
+Si la figura es `triangle`, se proporcionan tres medidas.
 
-- La figura será siempre una de: `triangulo`, `cuadrado`
+## Restricciones
+
+- La figura será siempre una de: `triangle`, `square`
 - Todas las medidas son enteros positivos
 - 1 ≤ medidas ≤ 1.000
 
