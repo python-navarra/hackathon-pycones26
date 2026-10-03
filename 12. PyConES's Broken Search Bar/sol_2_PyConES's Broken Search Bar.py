@@ -8,7 +8,7 @@ for i in range(n):
     word = input()
     
     h1 = 0
-    h2 = 2
+    h2 = 0
     for c in word:
         h1 = (h1 * H1 + ord(c)) % MOD
         h2 = (h2 * H2 + ord(c)) % MOD
