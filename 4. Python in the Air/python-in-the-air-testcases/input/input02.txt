@@ -1,1 +1,0 @@
-Welcome to PyConES 2026. Pythonista are everywhere! Python is fun. Learning Python is exciting.
