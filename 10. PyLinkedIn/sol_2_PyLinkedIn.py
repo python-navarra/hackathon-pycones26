@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def add_edge(nod, new_nod, g):
     if nod not in g:
         g[nod] = []
