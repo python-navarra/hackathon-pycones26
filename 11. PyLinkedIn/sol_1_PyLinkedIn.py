@@ -13,7 +13,7 @@ def find_set(a, id):
 n = int(input())
 names = input().split()
 
-id = [i for i in range(0, n+1)]
+id = [i for i in range(n+1)]
 ran = [1] * (n+1)
 
 d = {}

@@ -1,7 +1,7 @@
 inp = input().split()
 fig = inp[0]
 
-if fig == "triangle" or fig == "triangulo":
+if fig == "triangle":
     a = int(inp[1])
     b = int(inp[2])
     c = int(inp[3])
