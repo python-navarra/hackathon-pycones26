@@ -1,6 +1,13 @@
-s = input()
-sol = 0
-for i in range(len(s) - 5):
-    if s[i:i+6] == "Python":
-        sol += 1
-print(sol)
+inp = input().split()
+fig = inp[0]
+
+if fig == "triangle":
+    a = int(inp[1])
+    b = int(inp[2])
+    c = int(inp[3])
+    p = a + b + c
+else:
+    side = int(inp[1])
+    p = 4 * side
+
+print(p, end="")
