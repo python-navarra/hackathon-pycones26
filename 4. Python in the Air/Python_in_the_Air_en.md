@@ -1,3 +1,5 @@
+# Python in the Air
+
 ## Story
 
 PyConES 2026 has finally begun! Everyone is talking, meeting new people, and sharing their love for Python. You can almost smell Python in the air.
@@ -5,7 +7,8 @@ PyConES 2026 has finally begun! Everyone is talking, meeting new people, and sha
 The organizers have a brilliant idea: they want to know **how many times `Python` is mentioned** during the conference.
 
 So they start counting:
-- One time. 
+
+- One time.
 - Two times.
 - One hundred times.
 - One thousand nine hundred and ninety-nine times...
@@ -14,7 +17,7 @@ Wait... there are too many! They will never finish counting them all by hand.
 
 One of the organizers has an idea:
 
-*"We need a Python program to count them for us!"*
+> *"We need a Python program to count them for us!"*
 
 The computer is ready. The editor is open. It's time to write some code.
 

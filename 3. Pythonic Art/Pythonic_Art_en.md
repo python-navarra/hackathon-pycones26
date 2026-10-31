@@ -1,3 +1,5 @@
+# Pythonic Art
+
 ## Story
 
 PyConES 2026 is not just code. It is also art.
@@ -23,7 +25,7 @@ The possible shapes are:
 
 A single line with the name of the shape followed by its measurements:
 
-```
+```text
 shape measurement1 [measurement2] [measurement3]
 ```
 

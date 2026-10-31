@@ -1,3 +1,5 @@
+# The Galactic Pythons
+
 ## Story
 
 The organizers of PyConES have prepared something special for this year's conference: a battle inspired by the **Galactic Wars**.

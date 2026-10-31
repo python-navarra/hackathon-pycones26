@@ -1,3 +1,5 @@
+# Hello PyConES
+
 ## Story
 
 On **November 6–8, 2026**, Barcelona fills up. And when we say fills up, we mean it.
@@ -37,6 +39,6 @@ This problem has **no input**. Do not read anything ;).
 
 A single line with the exact text:
 
-```
+```text
 Hello, PyConES!
 ```

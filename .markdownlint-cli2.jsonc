@@ -1,0 +1,9 @@
+{
+  "globs": ["**/*.md"],
+  "config": {
+    "default": true,
+    // Problem statements are prose. An 80-column wrap would split
+    // narrative paragraphs and sample explanations.
+    "MD013": false
+  }
+}

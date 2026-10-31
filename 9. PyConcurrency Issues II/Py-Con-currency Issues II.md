@@ -48,7 +48,7 @@ of them.
 
 ## Constraints
 
-```
+```text
 1 ≤ n ≤ 10^5
 0 ≤ start < end ≤ 10^4
 ```
@@ -59,7 +59,7 @@ A single integer: the minimum number of people required.
 
 ## Sample Input 0
 
-```
+```text
 6
 0 30
 25 60
@@ -71,7 +71,7 @@ A single integer: the minimum number of people required.
 
 ## Sample Output 0
 
-```
+```text
 3
 ```
 

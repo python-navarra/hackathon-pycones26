@@ -1,3 +1,5 @@
+# Always in PySync
+
 In the central courtyard, two sound sources are competing with each other:
 the main stage's PA system repeats an announcement every so many minutes,
 and the workshop area's speaker repeats its own jingle, on its own cycle.
@@ -30,7 +32,7 @@ A single line containing two integers `a` and `b`, separated by a space.
 
 ## Constraints
 
-```
+```text
 1 ≤ a, b ≤ 1000
 ```
 
@@ -41,25 +43,25 @@ line up again.
 
 ## Sample Input 0
 
-```
+```text
 8 12
 ```
 
 ## Sample Output 0
 
-```
+```text
 24
 ```
 
 ## Sample Input 1
 
-```
+```text
 5 7
 ```
 
 ## Sample Output 1
 
-```
+```text
 35
 ```
 

@@ -1,3 +1,5 @@
+# Hello PyConES
+
 ## Story
 
 Del **6 al 8 de noviembre de 2026**, Barcelona se llena. Y cuando decimos se llena, lo decimos en serio.
@@ -37,6 +39,6 @@ Este problema **no tiene entrada**. No leas nada.
 
 Una única línea con el texto exacto:
 
-```
+```text
 Hello, PyConES!
 ```

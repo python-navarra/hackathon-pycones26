@@ -1,3 +1,5 @@
+# PyLinkedIn
+
 It all starts on Friday, in the workshops. That's the first contact, the
 icebreaker before the real thing kicks off: someone recognizes another
 person by their Mastodon avatar, two strangers discover they've been
@@ -68,7 +70,7 @@ is still just themselves, size 1.
 
 ## Constraints
 
-```
+```text
 1 ≤ n ≤ 2×10^5
 0 ≤ m ≤ 2×10^5
 1 ≤ q ≤ 2×10^5
@@ -82,7 +84,7 @@ size of that person.
 
 ## Sample Input 0
 
-```
+```text
 7
 ana bruno carla diego elena fran gonzalo
 5
@@ -102,7 +104,7 @@ gonzalo
 
 ## Sample Output 0
 
-```
+```text
 4
 4
 4

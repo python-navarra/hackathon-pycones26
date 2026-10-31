@@ -1,3 +1,5 @@
+# Pythonic Art
+
 ## Historia
 
 La PyConES 2026 no es solo código. También es arte.
@@ -23,7 +25,7 @@ Las figuras posibles son:
 
 Una única línea con el nombre de la figura seguido de sus medidas:
 
-```
+```text
 figura medida1 [medida2] [medida3]
 ```
 
@@ -42,4 +44,4 @@ Un único entero con el perímetro de la figura.
 
 ## Ejemplos
 
-**Ejemplo 1**
+### Ejemplo 1

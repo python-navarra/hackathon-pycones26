@@ -1,3 +1,5 @@
+# The Py-rate Radio
+
 ## Story
 
 The organisers of PyConES 2026 decided to launch a challenge for all participants: **the Py-rate Radio**. A small speaker connected to an old laptop, with a floppy disk that holds a random message which changes every hour — programmer jokes, talk schedules, hackathon gossip, places to visit in Barcelona, even rumours about the latest NumPy release.
@@ -16,7 +18,7 @@ Uppercase letters must remain uppercase, lowercase letters must remain lowercase
 
 ## Input Format
 
-```
+```text
 S
 k
 ```

@@ -51,7 +51,7 @@ person can attend that day.
 
 ## Constraints
 
-```
+```text
 1 ≤ n ≤ 10^5
 0 ≤ start < end ≤ 10^4
 ```
@@ -63,7 +63,7 @@ attended.
 
 ## Sample Input 0
 
-```
+```text
 6
 0 30
 25 60
@@ -75,7 +75,7 @@ attended.
 
 ## Sample Output 0
 
-```
+```text
 4
 ```
 

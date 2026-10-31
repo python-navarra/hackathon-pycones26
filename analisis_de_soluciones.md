@@ -1,10 +1,12 @@
-# 1. Hello PyConES
+# Análisis de soluciones
+
+## 1. Hello PyConES
 
 Para resolver este problema solo hay que escribir en la salida estándar el texto
 `Hello, PyConES!` usando `print`. No hay entrada que leer. La salida debe ser
 exacta: respetar mayúsculas, la coma, el espacio y el signo de exclamación (15 caracteres).
 
-# 2. PyRoom to Grow
+## 2. PyRoom to Grow
 
 Cada expansión duplica la capacidad de la sala, que empieza con 1 asiento, así que
 después de `n` expansiones hay 2ⁿ asientos. El problema se reduce a calcular 2 elevado a `n`.
@@ -17,7 +19,7 @@ Como `0 ≤ n ≤ 30`, el resultado máximo es 2³⁰ = 1 073 741 824, un valor 
 
 Caso borde: con `n = 0` no hay expansiones y la respuesta es `1`.
 
-# 3. Pythonic Art
+## 3. Pythonic Art
 
 La entrada es una única línea con el nombre de la figura (`triangle` o `square`)
 seguido de sus medidas. Hay que leerla, separarla en palabras y convertir las
@@ -26,7 +28,7 @@ medidas a enteros. Según el nombre de la figura se aplica la fórmula del perí
 - **`triangle a b c`:** el perímetro es la suma de los tres lados, `a + b + c`.
 - **`square l`:** el perímetro es cuatro veces el lado, `4 * l`.
 
-# 4. Python in the Air
+## 4. Python in the Air
 
 Hay que contar cuántas veces aparece la subcadena `Python` en el string dado,
 respetando las mayúsculas y minúsculas. Como el string tiene como máximo 100,000
@@ -44,7 +46,7 @@ Hay dos formas sencillas de hacerlo:
 `count` cuenta apariciones sin solapamiento, pero aquí da igual: `Python` no puede
 solaparse consigo mismo, así que ambas opciones dan el mismo resultado.
 
-# 5. PyCoffee
+## 5. PyCoffee
 
 Hay que encontrar el nombre que más veces aparece en la lista y mostrarlo junto
 con su número de apariciones. Si varios nombres empatan, gana el que va primero
@@ -64,7 +66,7 @@ formas sencillas de hacerlo:
    cuando la racha sea **estrictamente mayor** que la mejor encontrada, de modo que
    ante un empate se conserva el nombre que va primero alfabéticamente.
 
-# 6. Always in PySync
+## 6. Always in PySync
 
 Los dos ciclos coinciden en los minutos que son múltiplos de `a` y de `b` a la vez,
 así que el primer minuto mayor que 0 en el que se alinean es el **mínimo común
@@ -81,8 +83,7 @@ coprimos), un valor pequeño para Python. Hay varias formas válidas de calcular
    Es la opción más corta y la más estándar. Conviene escribir `a * b // gcd(a, b)`,
    con división entera, para que el resultado sea un `int` y no un `float`.
 
-
-# 7. The PyRate Radio
+## 7. The PyRate Radio
 
 Es un cifrado César: cada letra inglesa se desplaza `k` posiciones en el alfabeto
 y vuelve al principio al pasar de la `z`. Las mayúsculas siguen siendo mayúsculas,
@@ -105,4 +106,3 @@ letra. Hay varias formas de hacerlo:
    mayúsculas se hace lo mismo con `'A'`. Aquí hay que comprobar que `c` está en el
    rango `'a' <= c <= 'z'` o `'A' <= c <= 'Z'`. Es más corto que el método
    anterior y no necesita guardar los alfabetos.
-
